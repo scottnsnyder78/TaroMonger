@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaroMonger", "TaroMonger\TaroMonger.csproj", "{F70CB2F5-1D1B-477F-8CCD-2670817EA999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaroMongerService", "TaroMonger\TaroMongerService.csproj", "{F70CB2F5-1D1B-477F-8CCD-2670817EA999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaroMongerTest", "TaroMongerTest\TaroMongerTest.csproj", "{90593B8D-FC65-43A1-8B0E-53B1E2F88772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaroMongerCore", "TaroMongerCore\TaroMongerCore.csproj", "{2B13EFDF-E91D-415B-AE93-AED8EB72685C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F70CB2F5-1D1B-477F-8CCD-2670817EA999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F70CB2F5-1D1B-477F-8CCD-2670817EA999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F70CB2F5-1D1B-477F-8CCD-2670817EA999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90593B8D-FC65-43A1-8B0E-53B1E2F88772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90593B8D-FC65-43A1-8B0E-53B1E2F88772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90593B8D-FC65-43A1-8B0E-53B1E2F88772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90593B8D-FC65-43A1-8B0E-53B1E2F88772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B13EFDF-E91D-415B-AE93-AED8EB72685C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B13EFDF-E91D-415B-AE93-AED8EB72685C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B13EFDF-E91D-415B-AE93-AED8EB72685C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B13EFDF-E91D-415B-AE93-AED8EB72685C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
