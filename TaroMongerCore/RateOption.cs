@@ -1,4 +1,4 @@
-﻿namespace TaroMonger
+﻿namespace TaroMongerCore
 {
     public class RateOption
     {
